@@ -9,7 +9,6 @@
 int binary_tree_balance(const binary_tree_t *tree)
 {
 	int height_l = 0, height_r = 0;
-	const binary_tree_t *current = tree->left;
 
 	if (!tree)
 	{
